@@ -6,7 +6,7 @@ import { Marker } from 'react-leaflet';
 
 const Markers = () => {
   return (
-    <Marker position={{lat: '51.528845', lng: '-0.172728'}} icon="https://icon-library.com/images/point-icon/point-icon-7.jpg" />
+    <Marker position={{lat: '51.528845', lng: '-0.172728'}}/>
   )
 }
 
