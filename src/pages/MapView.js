@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
 // import 'leaflet/dist/leaflet.css';
 import { useLocation } from 'react-router-dom';
 
