@@ -5,6 +5,7 @@ import { makeStyles, Typography } from "@material-ui/core";
 import { LinkRedirect, MarkPrice, SignInButton, SignUpButton, TypographyStyled } from '../styled/styledComponents';
 import { useDispatch, useSelector } from 'react-redux';
 import { addSyncToCart } from '../redux/actions/actionShoppingCart';
+import ReactImageMagnify from 'react-image-magnify';
 
 
 const DetailsContainer = () => {
@@ -34,6 +35,19 @@ const DetailsContainer = () => {
         {/* Card Detail */}
         <div>
             <div className={classes.card__detail}>
+                <ReactImageMagnify className={classes.card__detailImage} {...{
+                                        smallImage: {
+                                            alt: 'Wristwatch by Ted Baker London',
+                                            isFluidWidth: true,
+                                            src: image
+                                        },
+                                        largeImage: {
+                                            src: image,
+                                            width: 800,
+                                            height: 1200
+                                        },
+                                        
+                                    }} />
                
             </div>
         </div>
