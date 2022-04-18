@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import { MapContainer, TileLayer } from 'react-leaflet';
 // import 'leaflet/dist/leaflet.css';
-import Markers from '../components/Markers';
 import { useLocation } from 'react-router-dom';
 
 //Material UI
@@ -35,7 +34,6 @@ const MapView = () => {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
-        <Markers />
     </MapContainer>
   )
 }
