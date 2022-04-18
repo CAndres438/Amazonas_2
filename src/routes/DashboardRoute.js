@@ -13,7 +13,7 @@ import Products from "../pages/Products"
 import MapView from "../pages/MapView"
 
 const promise = loadStripe(
-    "pk_test_51KnArTJaDltuSn9Nj7gxjtVoXGarC9RzF3sPvQh0BLPKgXhgSCgX5syMsdIXtPOZnrnVI6LvI5Dt4KtvdpeH6mo900O0OA7PWH"
+    "pk_test_51Kpnk7CXVx2ghxaBcVimHgvyzvx6YdaOxP4GLVJzDHbKnqUBNCRD0HGmbY3tAR4YrKZAH4mAr96Ml8DsId3q1Ix600VU90ZLa0"
 )
 
 const DashboardRoute = () => {
